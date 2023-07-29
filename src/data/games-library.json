@@ -1,0 +1,1706 @@
+[
+    {
+        "id": 1,
+        "name": "911 Operator",
+        "genre": "simulation",
+        "other_genres": [
+            "casual",
+            "indie",
+            "strategy"
+        ],
+        "release_date": "2/24/2017",
+        "developer": "Jutsu Games",
+        "publisher": "Games Operators",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "A Story About My Uncle",
+        "genre": "adventure",
+        "other_genres": [
+            "casual",
+            "first-person",
+            "indie"
+        ],
+        "release_date": {
+            "$date": "2014-05-28T03:00:00.000Z"
+        },
+        "developer": "Gone North Games",
+        "publisher": "Coffee Stain Publishing",
+        "franchise": "A Story About My Uncle",
+        "launchers": [
+            "Steam"
+        ],
+        "__v": 0
+    },
+    {
+        "id": 3,
+        "name": "AKALABETH: World of Doom",
+        "genre": "rgp",
+        "other_genres": [],
+        "release_date": "12/31/1979",
+        "developer": "Richard Garriott",
+        "publisher": "Richard Garriott",
+        "franchise": "AKALABETH",
+        "launchers": [
+            "GOG Galaxy"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "AdVenture Capitalist",
+        "genre": "casual",
+        "other_genres": [
+            "free to play",
+            "indie"
+        ],
+        "release_date": "3/30/2015",
+        "developer": "Hyper Hippo Games",
+        "publisher": "Hyper Hippo Games",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Age of Empires III: Definitive Edition",
+        "genre": "strategy",
+        "other_genres": [],
+        "release_date": "10/15/2020",
+        "developer": "Tantalus Media",
+        "publisher": "Xbox Game Studios",
+        "franchise": "Age of Empires",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Anachronism",
+        "genre": "casual",
+        "other_genres": [
+            "indie"
+        ],
+        "release_date": "5/04/2021",
+        "developer": "Easy~ Interactive Software",
+        "publisher": "Easy~ Interactive Software",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Assassin's Creed IV Black Flag",
+        "genre": "action",
+        "other_genres": [
+            "adventure"
+        ],
+        "release_date": "10/15/2020",
+        "developer": "Ubisoft Montreal",
+        "publisher": "Ubisoft",
+        "franchise": "Assassin's Creed",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Beholder",
+        "genre": "adventure",
+        "other_genres": [
+            "indie",
+            "strategy"
+        ],
+        "release_date": "11/09/2016",
+        "developer": "Warm Lamp Games",
+        "publisher": "Alawar Premium",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "BioShock",
+        "genre": "action",
+        "other_genres": [
+            "rpg"
+        ],
+        "release_date": "8/21/2007",
+        "developer": "2K Boston",
+        "publisher": "2K",
+        "franchise": "BioShock",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "BioShock 2",
+        "genre": "action",
+        "other_genres": [
+            "rpg"
+        ],
+        "release_date": "2/9/2010",
+        "developer": "2K Marin",
+        "publisher": "2K",
+        "franchise": "BioShock",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "BioShock 2 Remastered",
+        "genre": "action",
+        "other_genres": [
+            "rpg"
+        ],
+        "release_date": "6/15/2016",
+        "developer": "2K Marin",
+        "publisher": "2K",
+        "franchise": "BioShock",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "BioShock Infinite",
+        "genre": "action",
+        "other_genres": [
+            "rpg"
+        ],
+        "release_date": "3/25/2013",
+        "developer": "Irrational Games",
+        "publisher": "2K",
+        "franchise": "BioShock",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "BioShock Remastered",
+        "genre": "action",
+        "other_genres": [
+            "rpg"
+        ],
+        "release_date": "6/15/2016",
+        "developer": "2K Boston",
+        "publisher": "2K",
+        "franchise": "BioShock",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Bully: Scholarship Edition",
+        "genre": "action",
+        "other_genres": [
+            "adventure",
+            "third-person"
+        ],
+        "release_date": "9/21/2008",
+        "developer": "Rockstar New England",
+        "publisher": "Rockstar Games",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Call of Juarez: Bound in Blood",
+        "genre": "action",
+        "other_genres": [
+            "adventure",
+            "first-person"
+        ],
+        "release_date": {
+            "$date": "2009-06-30T03:00:00.000Z"
+        },
+        "developer": "Techland",
+        "publisher": "Techland Publishing",
+        "franchise": "Call of Juarez",
+        "launchers": [
+            "Steam"
+        ],
+        "__v": 0
+    },
+    {
+        "id": 16,
+        "name": "Call of Juarez: Bound in Blood",
+        "genre": "action",
+        "other_genres": [
+            "adventure",
+            "first-person"
+        ],
+        "release_date": {
+            "$date": "2009-06-30T03:00:00.000Z"
+        },
+        "developer": "Techland",
+        "publisher": "Techland Publishing",
+        "franchise": "Call of Juarez",
+        "launchers": [
+            "Steam"
+        ],
+        "__v": 0
+    },
+    {
+        "id": 17,
+        "name": "Call of Juarez: Bound in Blood",
+        "genre": "action",
+        "other_genres": [
+            "adventure",
+            "first-person"
+        ],
+        "release_date": {
+            "$date": "2009-06-30T03:00:00.000Z"
+        },
+        "developer": "Techland",
+        "publisher": "Techland Publishing",
+        "franchise": "Call of Juarez",
+        "launchers": [
+            "Steam"
+        ],
+        "__v": 0
+    },
+    {
+        "id": 18,
+        "name": "Call of Juarez: Bound in Blood",
+        "genre": "action",
+        "other_genres": [
+            "adventure",
+            "first-person"
+        ],
+        "release_date": {
+            "$date": "2009-06-30T03:00:00.000Z"
+        },
+        "developer": "Techland",
+        "publisher": "Techland Publishing",
+        "franchise": "Call of Juarez",
+        "launchers": [
+            "Steam"
+        ],
+        "__v": 0
+    },
+    {
+        "id": 19,
+        "name": "Call of Juarez: Bound in Blood",
+        "genre": "action",
+        "other_genres": [
+            "adventure",
+            "first-person"
+        ],
+        "release_date": {
+            "$date": "2009-06-30T03:00:00.000Z"
+        },
+        "developer": "Techland",
+        "publisher": "Techland Publishing",
+        "franchise": "Call of Juarez",
+        "launchers": [
+            "Steam"
+        ],
+        "__v": 0
+    },
+    {
+        "id": 20,
+        "name": "Call of Juarez: Gunslinger",
+        "genre": "action",
+        "other_genres": [
+            "adventure",
+            "first-person"
+        ],
+        "release_date": {
+            "$date": "2013-05-22T03:00:00.000Z"
+        },
+        "developer": "Techland",
+        "publisher": "Techland Publishing",
+        "franchise": "Call of Juarez",
+        "launchers": [
+            "Steam"
+        ],
+        "__v": 0
+    },
+    {
+        "id": 21,
+        "name": "Call of Juarez: Gunslinger",
+        "genre": "action",
+        "other_genres": [
+            "adventure",
+            "first-person"
+        ],
+        "release_date": {
+            "$date": "2013-05-22T03:00:00.000Z"
+        },
+        "developer": "Techland",
+        "publisher": "Techland Publishing",
+        "franchise": "Call of Juarez",
+        "launchers": [
+            "Steam"
+        ],
+        "__v": 0
+    },
+    {
+        "id": 22,
+        "name": "Call of Juarez: Gunslinger",
+        "genre": "action",
+        "other_genres": [
+            "adventure",
+            "first-person"
+        ],
+        "release_date": {
+            "$date": "2013-05-22T03:00:00.000Z"
+        },
+        "developer": "Techland",
+        "publisher": "Techland Publishing",
+        "franchise": "Call of Juarez",
+        "launchers": [
+            "Steam"
+        ],
+        "__v": 0
+    },
+    {
+        "id": 23,
+        "name": "Call of Juarez: Gunslinger",
+        "genre": "action",
+        "other_genres": [
+            "adventure",
+            "first-person"
+        ],
+        "release_date": {
+            "$date": "2013-05-22T03:00:00.000Z"
+        },
+        "developer": "Techland",
+        "publisher": "Techland Publishing",
+        "franchise": "Call of Juarez",
+        "launchers": [
+            "Steam"
+        ],
+        "__v": 0
+    },
+    {
+        "id": 24,
+        "name": "Call of Juarez: Gunslinger",
+        "genre": "action",
+        "other_genres": [
+            "adventure",
+            "first-person"
+        ],
+        "release_date": {
+            "$date": "2013-05-22T03:00:00.000Z"
+        },
+        "developer": "Techland",
+        "publisher": "Techland Publishing",
+        "franchise": "Call of Juarez",
+        "launchers": [
+            "Steam"
+        ],
+        "__v": 0
+    },
+    {
+        "id": 25,
+        "name": "Crysis Remastered",
+        "genre": "action",
+        "other_genres": [
+            "adventure",
+            "first-person"
+        ],
+        "release_date": "11/13/2007",
+        "developer": "Crytek",
+        "publisher": "Eletronic Arts",
+        "franchise": "Crysis",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 26,
+        "name": "Dead Island Definitive Edition",
+        "genre": "action",
+        "other_genres": [
+            "adventure"
+        ],
+        "release_date": "5/31/2016",
+        "developer": "Techland",
+        "publisher": "Deep Silver",
+        "franchise": "Dead Island",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 27,
+        "name": "Dead Island Retro Revenge",
+        "genre": "action",
+        "other_genres": [
+            "adventure"
+        ],
+        "release_date": "6/1/2016",
+        "developer": "Empty Clip Studios",
+        "publisher": "Deep Silver",
+        "franchise": "Dead Island",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 28,
+        "name": "Dead Island Riptide Definitive Edition",
+        "genre": "action",
+        "other_genres": [
+            "adventure"
+        ],
+        "release_date": "5/31/2016",
+        "developer": "Techland",
+        "publisher": "Deep Silver",
+        "franchise": "Dead Island",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 29,
+        "name": "Dead Space 2",
+        "genre": "action",
+        "other_genres": [
+            "adventure",
+            "survival horror"
+        ],
+        "release_date": "1/27/2011",
+        "developer": "Visceral Games",
+        "publisher": "Electronic Arts",
+        "franchise": "Dead Space",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 30,
+        "name": "Dishonored",
+        "genre": "action",
+        "other_genres": [
+            "adventure",
+            "first-person",
+            "plague"
+        ],
+        "release_date": {
+            "$date": "2012-10-09T03:00:00.000Z"
+        },
+        "developer": "Arkane Studios",
+        "publisher": "Bethesda Softworks",
+        "franchise": "Dishonored",
+        "launchers": [
+            "Steam"
+        ],
+        "__v": 0
+    },
+    {
+        "id": 31,
+        "name": "Dishonored",
+        "genre": "action",
+        "other_genres": [
+            "adventure",
+            "first-person",
+            "plague"
+        ],
+        "release_date": {
+            "$date": "2012-10-09T03:00:00.000Z"
+        },
+        "developer": "Arkane Studios",
+        "publisher": "Bethesda Softworks",
+        "franchise": "Dishonored",
+        "launchers": [
+            "Steam"
+        ],
+        "__v": 0
+    },
+    {
+        "id": 32,
+        "name": "Dishonored",
+        "genre": "action",
+        "other_genres": [
+            "adventure",
+            "first-person",
+            "plague"
+        ],
+        "release_date": {
+            "$date": "2012-10-09T03:00:00.000Z"
+        },
+        "developer": "Arkane Studios",
+        "publisher": "Bethesda Softworks",
+        "franchise": "Dishonored",
+        "launchers": [
+            "Steam"
+        ],
+        "__v": 0
+    },
+    {
+        "id": 33,
+        "name": "Dishonored",
+        "genre": "action",
+        "other_genres": [
+            "adventure",
+            "first-person",
+            "plague"
+        ],
+        "release_date": {
+            "$date": "2012-10-09T03:00:00.000Z"
+        },
+        "developer": "Arkane Studios",
+        "publisher": "Bethesda Softworks",
+        "franchise": "Dishonored",
+        "launchers": [
+            "Steam"
+        ],
+        "__v": 0
+    },
+    {
+        "id": 34,
+        "name": "Dishonored",
+        "genre": "action",
+        "other_genres": [
+            "adventure",
+            "first-person",
+            "plague"
+        ],
+        "release_date": {
+            "$date": "2012-10-09T03:00:00.000Z"
+        },
+        "developer": "Arkane Studios",
+        "publisher": "Bethesda Softworks",
+        "franchise": "Dishonored",
+        "launchers": [
+            "Steam"
+        ],
+        "__v": 0
+    },
+    {
+        "id": 35,
+        "name": "Don't Starve",
+        "genre": "adventure",
+        "other_genres": [
+            "indie",
+            "simulation"
+        ],
+        "release_date": "4/23/2013",
+        "developer": "Klei Entertainment",
+        "publisher": "Klei Entertainment",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 36,
+        "name": "Euro Truck Simulator",
+        "genre": "simulation",
+        "other_genres": [],
+        "release_date": "8/26/2008",
+        "developer": "SCS Software",
+        "publisher": "SCS Software",
+        "franchise": "Euro Truck Simulator",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 37,
+        "name": "Fallout 3",
+        "genre": "rgp",
+        "other_genres": [
+            "action",
+            "adventure"
+        ],
+        "release_date": "10/27/2008",
+        "developer": "Bethesda Game Studios",
+        "publisher": "Bethesda Softworks",
+        "franchise": "Fallout",
+        "launchers": [
+            "Steam",
+            "Epic Games"
+        ]
+    },
+    {
+        "id": 38,
+        "name": "GAME.exe",
+        "genre": "indie",
+        "other_genres": [
+            "survival-horror",
+            "single-player"
+        ],
+        "release_date": "7/2/2021",
+        "developer": "Punx Studios",
+        "publisher": "Punx Studios",
+        "franchise": "GRIMM",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 39,
+        "name": "GRIMM",
+        "genre": "indie",
+        "other_genres": [
+            "casual",
+            "indie"
+        ],
+        "release_date": "1/6/2004",
+        "developer": "Spicyhorse Games",
+        "publisher": "Spicyhorse Games",
+        "franchise": "GRIMM",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 40,
+        "name": "Just Cause",
+        "genre": "action",
+        "other_genres": [
+            "adventure"
+        ],
+        "release_date": "6/22/2006",
+        "developer": "Avalanche Studios",
+        "publisher": "Square Enix",
+        "franchise": "Just Cause",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 41,
+        "name": "Just Cause 2",
+        "genre": "action",
+        "other_genres": [
+            "adventure"
+        ],
+        "release_date": "3/23/2010",
+        "developer": "Avalanche Studios",
+        "publisher": "Square Enix",
+        "franchise": "Just Cause",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 42,
+        "name": "Just Cause 3",
+        "genre": "action",
+        "other_genres": [
+            "adventure"
+        ],
+        "release_date": "11/30/2015",
+        "developer": "Avalanche Studios",
+        "publisher": "Square Enix",
+        "franchise": "Just Cause",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 43,
+        "name": "LEGO Batman: The Videogame",
+        "genre": "action",
+        "other_genres": [
+            "adventure",
+            "lego"
+        ],
+        "release_date": "6/29/2008",
+        "developer": "Traveller's Tales",
+        "publisher": "Warner Bros. Interactive Entertainment",
+        "franchise": "LEGO",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 44,
+        "name": "LEGO® Marvel™ Super Heroes",
+        "genre": "action",
+        "other_genres": [
+            "adventure"
+        ],
+        "release_date": "10/22/2013",
+        "developer": "Traveller's Tales",
+        "publisher": "Warner Bros. Interactive Entertainment",
+        "franchise": "LEGO",
+        "launchers": [
+            "Steam"
+        ],
+        "__v": 0
+    },
+    {
+        "id": 45,
+        "name": "Left 4 Dead",
+        "genre": "action",
+        "other_genres": [
+            "adventure",
+            "survival horror"
+        ],
+        "release_date": "11/17/2008",
+        "developer": "Valve",
+        "publisher": "Valve",
+        "franchise": "Left 4 Dead",
+        "launchers": [
+            "Steam"
+        ],
+        "details": {
+            "singleplayer": true,
+            "multiplayer": true,
+            "launcher_achievements": {
+                "steam": true
+            },
+            "launcher_cloud_save": {
+                "steam": true
+            }
+        }
+    },
+    {
+        "id": 46,
+        "name": "Left 4 Dead 2",
+        "genre": "action",
+        "other_genres": [
+            "adventure",
+            "survival horror"
+        ],
+        "release_date": "11/17/2009",
+        "developer": "Valve",
+        "publisher": "Valve",
+        "franchise": "Left 4 Dead",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 47,
+        "name": "Lucius",
+        "genre": "indie",
+        "other_genres": [
+            "violent",
+            "gore",
+            "action",
+            "adventure"
+        ],
+        "release_date": "10/29/2022",
+        "developer": "Shiver Games",
+        "publisher": "Shiver Games",
+        "franchise": "Lucius",
+        "launchers": [
+            "Steam"
+        ],
+        "__v": 0
+    },
+    {
+        "id": 48,
+        "name": "Lucius Demake",
+        "genre": "indie",
+        "other_genres": [
+            "casual",
+            "action",
+            "adventure",
+            "simulation"
+        ],
+        "release_date": "8/8/2016",
+        "developer": "Shiver Games",
+        "publisher": "Shiver Games",
+        "franchise": "Lucius",
+        "launchers": [
+            "Steam"
+        ],
+        "__v": 0
+    },
+    {
+        "id": 49,
+        "name": "Lucius II",
+        "genre": "indie",
+        "other_genres": [
+            "violent",
+            "gore",
+            "action",
+            "adventure",
+            "simulation"
+        ],
+        "release_date": "10/29/2022",
+        "developer": "Shiver Games",
+        "publisher": "Shiver Games",
+        "franchise": "Lucius",
+        "launchers": [
+            "Steam"
+        ],
+        "__v": 0
+    },
+    {
+        "id": 50,
+        "name": "Lucius II",
+        "genre": "indie",
+        "other_genres": [
+            "violent",
+            "gore",
+            "action",
+            "adventure",
+            "simulation"
+        ],
+        "release_date": "10/29/2022",
+        "developer": "Shiver Games",
+        "publisher": "Shiver Games",
+        "franchise": "Lucius",
+        "launchers": [
+            "Steam"
+        ],
+        "__v": 0
+    },
+    {
+        "id": 51,
+        "name": "Lucius III",
+        "genre": "indie",
+        "other_genres": [
+            "violent",
+            "gore",
+            "action",
+            "adventure",
+            "simulation"
+        ],
+        "release_date": "10/29/2022",
+        "developer": "Shiver Games",
+        "publisher": "Shiver Games",
+        "franchise": "Lucius",
+        "launchers": [
+            "Steam"
+        ],
+        "__v": 0
+    },
+    {
+        "id": 52,
+        "name": "Lucius III",
+        "genre": "indie",
+        "other_genres": [
+            "violent",
+            "gore",
+            "action",
+            "adventure",
+            "simulation"
+        ],
+        "release_date": "10/29/2022",
+        "developer": "Shiver Games",
+        "publisher": "Shiver Games",
+        "franchise": "Lucius",
+        "launchers": [
+            "Steam"
+        ],
+        "__v": 0
+    },
+    {
+        "id": 53,
+        "name": "Mad Max",
+        "genre": "action",
+        "other_genres": [
+            "adventure"
+        ],
+        "release_date": "9/1/2015",
+        "developer": "Avalanche Studios",
+        "publisher": "Warner Bros. Games",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 54,
+        "name": "Mad Max",
+        "genre": "action",
+        "other_genres": [
+            "adventure"
+        ],
+        "release_date": "6/1/2015",
+        "developer": "Avalanche Studios",
+        "publisher": "Warner Bros. Games",
+        "franchise": "Mad Max",
+        "launchers": [
+            "Steam"
+        ],
+        "__v": 0
+    },
+    {
+        "id": 55,
+        "name": "Mafia",
+        "genre": "action",
+        "other_genres": [
+            "adventure",
+            "third-person"
+        ],
+        "release_date": "8/28/2002",
+        "developer": "Illusion Softworks",
+        "publisher": "2K",
+        "franchise": "Mafia",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 56,
+        "name": "Manhunt",
+        "genre": "action",
+        "other_genres": [
+            "third-person",
+            "violence",
+            "gore"
+        ],
+        "release_date": "04/20/2004",
+        "developer": "Rockstar North",
+        "publisher": "Rockstar Games",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 57,
+        "name": "Manhut",
+        "genre": "action",
+        "other_genres": [
+            "stealth",
+            "puzzle"
+        ],
+        "release_date": "11/18/2003",
+        "developer": "Rockstar North",
+        "publisher": "Rockstar Games",
+        "franchise": "Manhut",
+        "launchers": [
+            "Steam"
+        ],
+        "__v": 0
+    },
+    {
+        "id": 58,
+        "name": "Metro: Last Light Redux",
+        "genre": "action",
+        "other_genres": [],
+        "release_date": "8/26/2014",
+        "developer": "A4A Games",
+        "publisher": "Deep Silver",
+        "franchise": "Metro",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 59,
+        "name": "Mirror's Edge",
+        "genre": "action",
+        "other_genres": [
+            "adventure"
+        ],
+        "release_date": "1/13/2009",
+        "developer": "DICE",
+        "publisher": "Electronic Arts",
+        "franchise": "Mirror's Edge",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 60,
+        "name": "Mirror's Edge Catalyst",
+        "genre": "action",
+        "other_genres": [],
+        "release_date": "6/7/2016",
+        "developer": "DICE",
+        "publisher": "Electronic Arts",
+        "franchise": "Mirror's Edge",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 61,
+        "name": "Niffelheim",
+        "genre": "action",
+        "other_genres": [
+            "adventure",
+            "indie",
+            "rgp",
+            "simulation"
+        ],
+        "release_date": "9/26/2018",
+        "developer": "Ellada Games",
+        "publisher": "Ellada Games",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 62,
+        "name": "Outlast",
+        "genre": "action",
+        "other_genres": [
+            "adventure",
+            "indie",
+            "survival horror"
+        ],
+        "release_date": "6/4/2013",
+        "developer": "Red Barrels",
+        "publisher": "Red Barrels",
+        "franchise": "Outlast",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 63,
+        "name": "Outlast 2",
+        "genre": "action",
+        "other_genres": [
+            "adventure",
+            "indie",
+            "survival horror"
+        ],
+        "release_date": "4/25/2017",
+        "developer": "Red Barrels",
+        "publisher": "Red Barrels",
+        "franchise": "Outlast",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 64,
+        "name": "PAYDAY 2",
+        "genre": "action",
+        "other_genres": [
+            "rpg",
+            "first-person"
+        ],
+        "release_date": "8/13/2013",
+        "developer": "OVERKILL",
+        "publisher": "Starbreeze Publishing AB",
+        "franchise": "PAYDAY",
+        "launchers": [
+            "Steam"
+        ],
+        "__v": 0
+    },
+    {
+        "id": 65,
+        "name": "POSTAL",
+        "genre": "action",
+        "other_genres": [
+            "adventure",
+            "indie"
+        ],
+        "release_date": "11/14/1997",
+        "developer": "Running With Scissors",
+        "publisher": "Running With Scissors",
+        "franchise": "POSTAL",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 66,
+        "name": "POSTAL 2",
+        "genre": "action",
+        "other_genres": [
+            "adventure",
+            "indie"
+        ],
+        "release_date": "4/14/2003",
+        "developer": "Running With Scissors",
+        "publisher": "Running With Scissors",
+        "franchise": "POSTAL",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 67,
+        "name": "Plague Inc Evolved",
+        "other_genres": [
+            "strategy"
+        ],
+        "release_date": "2/20/2014",
+        "developer": "Ndemic Creations",
+        "publisher": "Ndemic Creations",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 68,
+        "name": "Portal",
+        "genre": "action",
+        "other_genres": [
+            "third-person",
+            "adventure"
+        ],
+        "release_date": "10/10/2007",
+        "developer": "Valve",
+        "publisher": "Valve",
+        "franchise": "Portal",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 69,
+        "name": "Portal 2",
+        "genre": "action",
+        "other_genres": [
+            "third-person",
+            "adventure"
+        ],
+        "release_date": "4/19/2011",
+        "developer": "Valve",
+        "publisher": "Valve",
+        "franchise": "Portal",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 70,
+        "name": "Prince of Persia: The Two Thrones",
+        "genre": "action",
+        "other_genres": [
+            "adventure",
+            "parkour",
+            "stealth"
+        ],
+        "release_date": "12/7/2005",
+        "developer": "Ubisoft Montreal",
+        "publisher": "Ubisoft",
+        "franchise": "Prince of Persia",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 71,
+        "name": "Prototype",
+        "genre": "action",
+        "other_genres": [
+            "third-person"
+        ],
+        "release_date": "6/09/2009",
+        "developer": "Radical Entertainment",
+        "publisher": "Activision",
+        "franchise": "Prototype",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 72,
+        "name": "Remember Me",
+        "genre": "action",
+        "other_genres": [
+            "adventure"
+        ],
+        "release_date": "6/3/2013",
+        "developer": "DONTNOD Entertainment",
+        "publisher": "Capcom",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 73,
+        "name": "Resident Evil 4 (2005)",
+        "genre": "action",
+        "other_genres": [
+            "adventure",
+            "indie",
+            "survival horror"
+        ],
+        "release_date": "2/28/2014",
+        "developer": "Capcom",
+        "publisher": "Capcom",
+        "franchise": "Resident Evil",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 74,
+        "name": "SUPERHOT",
+        "genre": "action",
+        "other_genres": [
+            "adventure",
+            "first-person",
+            "indie"
+        ],
+        "release_date": "2/25/2016",
+        "developer": "SUPERHOT Team",
+        "publisher": "SUPERHOT Team",
+        "franchise": "SUPERHOT",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 75,
+        "name": "SUPERHOT: MIND CONTROL DELETE",
+        "genre": "first-person",
+        "other_genres": [
+            "bullet-time",
+            "puzzle",
+            "shooter",
+            "action",
+            "indie"
+        ],
+        "release_date": "12/7/2017",
+        "developer": "SUPERHOT Team",
+        "publisher": "SUPERHOT Team",
+        "franchise": "SUPERHOT",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 76,
+        "name": "Slime Rancher",
+        "genre": "action",
+        "other_genres": [
+            "adventure",
+            "indie",
+            "simulation"
+        ],
+        "release_date": "8/1/2017",
+        "developer": "Monomi Park",
+        "publisher": "Monomi Park",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 77,
+        "name": "Snake Pass",
+        "genre": "casual",
+        "other_genres": [
+            "adventure",
+            "indie"
+        ],
+        "release_date": "3/28/2017",
+        "developer": "Sumo Digital",
+        "publisher": "Secret Mode",
+        "franchise": "Snake Pass",
+        "launchers": [
+            "Steam"
+        ],
+        "__v": 0
+    },
+    {
+        "id": 78,
+        "name": "Sonic Generations Collection",
+        "genre": "indie",
+        "other_genres": [
+            "casual",
+            "flight"
+        ],
+        "release_date": "11/3/2011",
+        "developer": "Devil's Details",
+        "publisher": "SEGA",
+        "franchise": "Sonic: The Hedgehog",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 79,
+        "name": "Superflight",
+        "genre": "indie",
+        "other_genres": [
+            "casual",
+            "flight"
+        ],
+        "release_date": "12/7/2017",
+        "developer": "GrizzlyGames",
+        "publisher": "GrizzlyGames",
+        "franchise": "Superflight",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 80,
+        "name": "The Witcher 2: Assassins of Kings Enhanced Edition",
+        "genre": "rgp",
+        "other_genres": [
+            "adventure",
+            "third-person"
+        ],
+        "release_date": "5/17/2011",
+        "developer": "CD PROJEKT RED",
+        "publisher": "CD PROJEKT RED",
+        "franchise": "The Witcher",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 81,
+        "name": "The Witcher 3: Wild Hunt",
+        "genre": "rgp",
+        "other_genres": [
+            "action",
+            "adventure"
+        ],
+        "release_date": "5/18/2015",
+        "developer": "CD PROJEKT RED",
+        "publisher": "CD PROJEKT RED",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 82,
+        "name": "The Witcher: Enhanced Edition Director's Cut",
+        "genre": "rgp",
+        "other_genres": [
+            "adventure",
+            "fantasy",
+            "mature"
+        ],
+        "release_date": "6/16/2008",
+        "developer": "CD PROJEKT RED",
+        "publisher": "CD PROJEKT RED",
+        "franchise": "The Witcher",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 83,
+        "name": "Thief",
+        "genre": "adventure",
+        "other_genres": [
+            "action",
+            "puzzle"
+        ],
+        "release_date": "2/27/2014",
+        "developer": "Eidos",
+        "publisher": "Eidos Interactive Corp.",
+        "franchise": "Thief",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 84,
+        "name": "Thief II: The Metal Age",
+        "genre": "stealth",
+        "other_genres": [
+            "action",
+            "simulation",
+            "classic",
+            "dark",
+            "puzzle"
+        ],
+        "release_date": "3/21/2000",
+        "developer": "Looking Glass Studios",
+        "publisher": "Eidos Interactive Corp.",
+        "franchise": "Thief",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 85,
+        "name": "Thief: Deadly Shadows",
+        "genre": "adventure",
+        "other_genres": [
+            "action",
+            "puzzle"
+        ],
+        "release_date": "6/11/2004",
+        "developer": "Ion Storm",
+        "publisher": "Eidos Interactive Corp.",
+        "franchise": "Thief",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 86,
+        "name": "Thief: Gold",
+        "genre": "adventure",
+        "other_genres": [
+            "action",
+            "puzzle"
+        ],
+        "release_date": "11/30/1998",
+        "developer": "Looking Glass Studios",
+        "publisher": "Eidos Interactive Corp.",
+        "franchise": "Thief",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 87,
+        "name": "Timberman",
+        "genre": "action",
+        "other_genres": [
+            "casual",
+            "indie"
+        ],
+        "release_date": "6/18/2015",
+        "developer": "Digital Melody",
+        "publisher": "Foverer Entertainment S. A.",
+        "franchise": "Timberman",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 88,
+        "name": "Tomb Raider",
+        "genre": "action",
+        "other_genres": [
+            "adventure",
+            "third-person"
+        ],
+        "release_date": "3/05/2013",
+        "developer": "Crystal Dynamics",
+        "publisher": "Square Enix Europe",
+        "franchise": "Tomb Raider",
+        "launchers": [
+            "Steam",
+            "Epic Games"
+        ]
+    },
+    {
+        "id": 89,
+        "name": "Tomb Raider I",
+        "genre": "adventure",
+        "other_genres": [
+            "action",
+            "female-protagonist",
+            "puzzle"
+        ],
+        "release_date": "11/28/2008",
+        "developer": "Core Design",
+        "publisher": "Crystal Dynmaics",
+        "franchise": "Tomb Raider",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 90,
+        "name": "Tomb Raider II",
+        "genre": "adventure",
+        "other_genres": [
+            "action",
+            "female-protagonist",
+            "puzzle"
+        ],
+        "release_date": "11/28/2008",
+        "developer": "Core Design",
+        "publisher": "Crystal Dynmaics",
+        "franchise": "Tomb Raider",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 91,
+        "name": "Tomb Raider III: Adventures of Lara Croft",
+        "genre": "adventure",
+        "other_genres": [
+            "action",
+            "female-protagonist",
+            "puzzle"
+        ],
+        "release_date": "11/28/2008",
+        "developer": "Core Design",
+        "publisher": "Crystal Dynmaics",
+        "franchise": "Tomb Raider",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 92,
+        "name": "Tomb Raider IV: The Last Relevation",
+        "genre": "adventure",
+        "other_genres": [
+            "action",
+            "female-protagonist",
+            "puzzle"
+        ],
+        "release_date": "11/28/2012",
+        "developer": "Core Design",
+        "publisher": "Crystal Dynmaics",
+        "franchise": "Tomb Raider",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 93,
+        "name": "Tomb Raider V: Chronicles",
+        "genre": "adventure",
+        "other_genres": [
+            "action",
+            "female-protagonist",
+            "puzzle"
+        ],
+        "release_date": "11/28/2012",
+        "developer": "Core Design",
+        "publisher": "Crystal Dynmaics",
+        "franchise": "Tomb Raider",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 94,
+        "name": "Tomb Raider VI: The Angel of Darkness",
+        "genre": "adventure",
+        "other_genres": [
+            "action",
+            "female-protagonist",
+            "puzzle"
+        ],
+        "release_date": "11/28/2012",
+        "developer": "Crystal Dynamics",
+        "publisher": "Crystal Dynmaics",
+        "franchise": "Tomb Raider",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 95,
+        "name": "Tomb Raider: Anniversary",
+        "genre": "adventure",
+        "other_genres": [
+            "action",
+            "female-protagonist",
+            "puzzle"
+        ],
+        "release_date": "6/5/2007",
+        "developer": "Crystal Dynamics",
+        "publisher": "Crystal Dynmaics",
+        "franchise": "Tomb Raider",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 96,
+        "name": "Tomb Raider: Legend",
+        "genre": "adventure",
+        "other_genres": [
+            "action",
+            "female-protagonist",
+            "puzzle"
+        ],
+        "release_date": "4/7/2006",
+        "developer": "Crystal Dynamics",
+        "publisher": "Crystal Dynmaics",
+        "franchise": "Tomb Raider",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 97,
+        "name": "Tomb Raider: Underworld",
+        "genre": "adventure",
+        "other_genres": [
+            "action",
+            "female-protagonist",
+            "puzzle"
+        ],
+        "release_date": "11/21/2008",
+        "developer": "Crystal Dynamics",
+        "publisher": "Crystal Dynmaics",
+        "franchise": "Tomb Raider",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 98,
+        "name": "Tomb Raider: Underworld",
+        "genre": "adventure",
+        "other_genres": [
+            "action",
+            "female-protagonist",
+            "puzzle"
+        ],
+        "release_date": "11/21/2008",
+        "developer": "Crystal Dynamics",
+        "publisher": "Crystal Dynmaics",
+        "franchise": "Tomb Raider",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 99,
+        "name": "Tropico Reloaded",
+        "genre": "simulation",
+        "other_genres": [
+            "strategy"
+        ],
+        "release_date": "7/24/2009",
+        "developer": "PopTop Software",
+        "publisher": "Kalypso Media Digital",
+        "franchise": "Tropico",
+        "launchers": [
+            "Steam"
+        ]
+    },
+    {
+        "id": 100,
+        "name": "Watch Dogs",
+        "genre": "action",
+        "other_genres": [
+            "adventure",
+            "third-person",
+            "single-player"
+        ],
+        "release_date": "11/29/2016",
+        "developer": "Ubisoft",
+        "publisher": "Ubisoft",
+        "franchise": "Watch Dogs",
+        "launchers": [
+            "Ubisoft Connect"
+        ]
+    },
+    {
+        "id": 101,
+        "name": "Watch Dogs 2",
+        "genre": "action",
+        "other_genres": [
+            "adventure",
+            "third-person"
+        ],
+        "release_date": "5/27/2014",
+        "developer": "Ubisoft",
+        "publisher": "Ubisoft",
+        "franchise": "Watch Dogs",
+        "launchers": [
+            "Ubisoft Connect"
+        ]
+    },
+    {
+        "id": 102,
+        "name": "Wild West Saga: Idle Tycoon Clicker",
+        "genre": "casual",
+        "other_genres": [
+            "free-to-play",
+            "indie",
+            "simulation"
+        ],
+        "release_date": "5/30/2018",
+        "developer": "Tamasenco",
+        "publisher": "Tamasenco",
+        "franchise": "",
+        "launchers": [
+            "Steam"
+        ]
+    }
+]
