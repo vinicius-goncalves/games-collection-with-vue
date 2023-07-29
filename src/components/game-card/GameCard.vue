@@ -5,7 +5,10 @@
             margin="10px"
             padding="15px"
             :text="gameName" />
-        <GameDescription :text="gameDescription" />
+        <GameDescription :text="gameDescription"/>
+        <footer>
+            <GameTag v-for="genre in genres" :genres="genres" :tag="genre"/>
+        </footer>
     </div>
 </template>
 
@@ -16,6 +19,13 @@
         min-height: 250px;
         background-color: var(--color3);
         border-radius: 10px;
+        position: relative;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
     }
 
 </style>
@@ -24,16 +34,28 @@
 
     import Title from '../Title.vue'
     import GameDescription from './GameDescription.vue'
+    import GameTag from './GameTag.vue'
 
     export default {
+
         name: 'GameCard',
+
         components: {
             Title,
-            GameDescription
+            GameDescription,
+            GameTag
         },
+
         props: {
-            gameName: String,
-            gameDescription: String
+            gameName: {
+                type: String
+            },
+            gameDescription: {
+                type: String
+            },
+            genres: {
+                type: Array
+            }
         }
     }
 

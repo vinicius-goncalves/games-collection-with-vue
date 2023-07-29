@@ -11,7 +11,7 @@
         background-color: var(--color3);
         color: var(--color0);
         margin: 25px;
-        padding: 10px;
+        padding: 25px;
         border-radius: 10px;
         word-wrap: break-word;
     }

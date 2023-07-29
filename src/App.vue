@@ -3,25 +3,29 @@
       <Navbar/>
     </header>
     <main>
+
       <div v-if="games.length === 0">
         <Panel
           header="Loading games..."
           body="Please waiting for gaming loading."
             />
       </div>
+
       <div v-else>
           <Panel
-          header="Explore!"
-          body="Take a look at my games library!"
-          headerPosition="left"
-          bodyPosition="left" />
-        <section>
-          <GameCard
-            v-for="game in games"
-            :gameName="game.name"
-              />
-      </section>
+            :header="Panel.header"
+            :body="Panel.body"
+            headerPosition="left"
+            bodyPosition="left" />
+
+          <section>
+            <GameCard
+              v-for="game in games"
+              :gameName="game.name"
+              :genres="[ game.genre, ...game.other_genres ]"/>
+        </section>
       </div>
+
     </main>
 </template>
 
@@ -69,12 +73,16 @@
       },
 
       data: () => ({
-          games
+          games: [],
+          Panel: {
+              header: 'Explore',
+              body: 'Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it'
+          }
       }),
 
       mounted() {
 
-          const randomGames = this.games
+          const randomGames = games
                 .map(game => ({ sort: Math.random(), game }))
                 .sort((a, b) => a.sort - b.sort)
                 .map(({ game }) => game)
