@@ -29,6 +29,3 @@ npm install
 | <a href="https://github.com/vinicius-goncalves" target="_blank">                                            |
 |  <img src="https://avatars.githubusercontent.com/u/74028582" width="128" alt="Vinícius Gonçalves - Github"> |
 | </a>                                                                                                        |
-
-[avatar]: <https://avatars.githubusercontent.com/u/74028582> "Vinícius Gonçalves - Avatar"
-[profile]: <https://github.com/vinicius-goncalves> "Vinícius Gonçalves - Github"
