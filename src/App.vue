@@ -22,7 +22,7 @@
             <GameCard
               v-for="game in games"
               :gameName="game.name"
-              :genres="[ game.genre, ...game.other_genres ]"/>
+              :genres="[ game.genre, ...game.other_genres ]" />
         </section>
       </div>
 
