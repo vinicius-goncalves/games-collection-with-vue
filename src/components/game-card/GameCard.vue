@@ -1,44 +1,3 @@
-<template>
-    <div class="game-card">
-        <Title size="24px" margin="10px" padding="15px" :text="gameName" />
-        <GameDescription :text="gameDescription" />
-        <footer class="game-card-details">
-            <CustomButton text="Details" />
-            <div>
-                <GameTag v-for="genre in genres" :genres="genres" :tag="genre" />
-            </div>
-        </footer>
-    </div>
-</template>
-
-<style scoped>
-    div.game-card {
-        background-color: var(--color3);
-        margin: 15px;
-        padding: 10px;
-        min-height: 250px;
-        border-radius: 10px;
-    }
-
-    footer.game-card-details {
-        margin: 10px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        position: relative;
-    }
-
-    footer.game-card-details div {
-
-        display: flex;
-
-        position: absolute;
-        bottom: 10px;
-        right: 10px;
-    }
-
-</style>
-
 <script>
 
     import Title from '../Title.vue'
@@ -74,3 +33,40 @@
     }
 
 </script>
+
+<template>
+    <div class="game-card">
+        <header class="game-card-briefing">
+            <Title size="24px" margin="10px 0" padding="10px" :text="gameName" />
+            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum praesentium velit porro eaque quia distinctio totam ipsam optio delectus odio vel, reiciendis non voluptatibus repellat error consequatur perferendis cumque! Eveniet amet ipsa aliquam maiores cupiditate.</p>
+        </header>
+        <footer class="game-card-details">
+            <CustomButton class="button" text="Details" />
+        </footer>
+    </div>
+</template>
+
+<style scoped>
+
+    div.game-card header.game-card-briefing {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    div.game-card {
+        background-color: var(--color3);
+        margin: 15px;
+        border-radius: 10px;
+        position: relative;
+    }
+
+    p.description {
+        color: var(--color4);
+    }
+
+    footer.game-card-details {
+        margin: 10px;
+        float: right;
+    }
+
+</style>
