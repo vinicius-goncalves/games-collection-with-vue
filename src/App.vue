@@ -55,28 +55,13 @@
     <main>
 
       <div v-if="games.length === 0">
-        <Panel
-          header="Loading games..."
-          body="Please waiting for games loading."
-            />
+        <Panel header="Loading games..." body="Please waiting for games loading." />
       </div>
 
       <div v-else>
-          <Panel
-              :header="Panel.header"
-              :body="Panel.body"
-              headerPosition="left"
-              bodyPosition="left" />
-
+          <Panel :header="Panel.header" :body="Panel.body" headerPosition="left" bodyPosition="left" />
           <section class="games-cards">
-            <GameCard
-                v-for="game in games"
-                :gameImage="game.image"
-                :gameName="game.name"
-                :gameDescription="Panel.body"
-                :gameGenres="game.other_genres"
-                :details="'Seeing details for ' + game.name"
-                :currGame="game" />
+            <GameCard v-for="game in games" :currGame="game" />
         </section>
       </div>
 
@@ -112,22 +97,9 @@
     }
 
     @media screen and (max-width: 600px) {
+
         #app .games-cards {
-            display: block;
-        }
-
-        #app .games-cards .game-card-image-wrapper {
-            display: none;
-        }
-
-        #app .games-cards .game-card-details {
-            float: none;
-            text-align: center;
-        }
-
-        #app .games-cards .game-card-details {
-            float: none;
-            text-align: center;
+            grid-template-columns: 1fr;
         }
     }
 

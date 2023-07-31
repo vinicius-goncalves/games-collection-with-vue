@@ -7,6 +7,10 @@
     import GameTag from './GameTag.vue'
     import GameDetail from './GameDetail.vue'
 
+    import {
+        filterObjectByKey
+    } from '../../js/utils.js'
+
     export default {
 
         name: 'GameCard',
@@ -17,7 +21,10 @@
             style: {
                 padding: '10px'
             },
-            gameDetails: null
+            gameDetails: null,
+            buttons: {
+                showDetailsText: null
+            }
         }),
 
         components: {
@@ -30,48 +37,28 @@
         },
 
         props: {
-            gameImage: {
-                type: String
-            },
-            gameName: {
-                type: String
-            },
-            gameDescription: {
-                type: String
-            },
-            gameGenres: {
-                type: Array
+            currGame: {
+                type: Object
             },
             details: {
                 type: String
-            },
-            currGame: {
-                type: Object
             }
         },
 
         methods: {
-            toggleMainCard() {
+            toggleCardVisibility() {
                 this.showMainCard = !this.showMainCard
             }
         },
 
-        mounted() {
+        beforeMount() {
 
-            function transformText(text) {
-              const matchUnderlines = /[_]/gi
-              const matchLowerCaseChars = /(\b[a-z])/g
+            this.buttons.showDetailsText = this.showMainCard
+                ? 'Details'
+                : 'Back'
 
-              const textWithoutUnderlines = text.replace(matchUnderlines, ' ')
-              const res = textWithoutUnderlines.replace(matchLowerCaseChars, (char) => char.toUpperCase())
-
-              return res
-          }
-
-            const entries = Object.entries(this.currGame)
-                .filter(([ key ]) => ['name', 'developer', 'publisher', 'release_date'].includes(key))
-            this.gameDetails = entries.reduce((acc, item) => (acc[transformText(item[0])] = item[1]) && acc, {})
-
+            const keys = ['name', 'developer', 'publisher', 'release_date']
+            this.gameDetails = filterObjectByKey(this.currGame, ...keys)
         }
     }
 
@@ -79,42 +66,41 @@
 
 <template>
 
-    <div v-if="showMainCard" class="game-card" :game="currGame">
-        <div class="game-card-image-wrapper">
-            <div class="overlay"></div>
-            <img class="game-card-image" :src="gameImage">
+    <div class="game-card">
+        <div data-game-card="image-wrapper">
+            <div class="image-overlay"></div>
+            <img data-game-card="image" :src="currGame.image">
         </div>
-        <div class="game-card-information-wrapper">
-            <header class="game-card-briefing">
-                <Title size="24px" margin="10px 0" :padding="style.padding" :text="gameName" />
-                <p class="description" :details="details">{{ details }}</p>
-                <div data-game-card="details">
-                    <GameDetail
-                        v-for="(gameDetail, key) in gameDetails"
-                        :strong="key"
-                        :value="gameDetail" />
-                </div>
-                <GameTag v-for="genre in gameGenres" :genres="gameGenres" :tag="genre"/>
-            </header>
-            <footer class="game-card-details">
-                <CustomButton @click="toggleMainCard" class="button" text="Undo" />
-            </footer>
-        </div>
-    </div>
+        <div data-game-card="main-content">
 
-    <div v-if="!showMainCard" class="game-card">
-        <div class="game-card-image-wrapper">
-            <div class="overlay"></div>
-            <img class="game-card-image" :src="gameImage" width="250">
-        </div>
-        <div class="game-card-information-wrapper">
-            <header class="game-card-briefing">
-                <Title size="24px" margin="10px 0" padding="10px" :text="gameName" />
-                <p class="description">{{ randomText }}</p>
-            </header>
-            <footer class="game-card-details">
-                <CustomButton @click="toggleMainCard" class="button" text="Details" />
-            </footer>
+            <div v-if="showMainCard">
+                <header data-game-card="briefing">
+                    <Title size="24px" margin="10px 0" padding="10px" :text="currGame.name" />
+                    <p class="description">{{ randomText }}</p>
+                </header>
+                <footer data-game-card="details-wrapper">
+                    <CustomButton @click="toggleCardVisibility" class="button" :text="buttons.showDetailsText" />
+                </footer>
+            </div>
+
+            <div v-if="!showMainCard">
+                <header data-game-card="briefing">
+                    <Title size="24px" margin="10px 0" :padding="style.padding" :text="currGame.name" />
+                    <p class="description">You are seeing details of {{ currGame.name }}:</p>
+                    <div data-game-card="details">
+                        <div>
+                            <GameDetail v-for="(detail, key) in gameDetails" :strong="key" :value="detail" />
+                        </div>
+                        <div data-game-card="tags">
+                            <GameTag v-for="genre in currGame.other_genres" :tag="genre" />
+                        </div>
+                    </div>
+                </header>
+                <footer data-game-card="details-wrapper">
+                    <CustomButton @click="toggleCardVisibility" class="button" text="Back" />
+                </footer>
+            </div>
+
         </div>
     </div>
 
@@ -131,49 +117,79 @@
         overflow: hidden;
     }
 
-    div.game-card-image-wrapper {
-        width: 100%;
+    div[data-game-card="image-wrapper"] {
+        width: 65%;
         height: 100%;
         overflow: hidden;
         position: relative;
     }
 
-    div.game-card-image-wrapper div.overlay {
+    div[data-game-card="image-wrapper"] div.image-overlay {
         min-width: 100%;
         min-height: 100%;
         background-image: linear-gradient(to right, transparent 1%, #2C2B3E 100%);
         position: absolute;
     }
 
-    div.game-card-image-wrapper img.game-card-image {
+    div[data-game-card="image-wrapper"] img[data-game-card="image"] {
         width: 100%;
         height: 100%;
         object-fit: cover;
         float: left;
     }
 
-    div.game-card div.game-card-information-wrapper {
-        min-width: 75%;
+    div.game-card div[data-game-card="main-content"] {
+        min-width: 65%;
         position: relative;
         word-wrap: break-word;
     }
 
-    div.game-card header.game-card-briefing {
+    div.game-card header[data-game-card="briefing"] {
+        max-width: 500px;
         margin: 10px;
         padding: 10px;
     }
 
     div[data-game-card="details"] {
         margin: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    div[data-game-card="tags"] {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+        align-items: center;
+        margin: 10px 0;
+        text-align: center;
+        word-wrap: break-word;
     }
 
     p.description {
         color: var(--color4);
     }
 
-    footer.game-card-details {
+    footer[data-game-card="details-wrapper"] {
         right: 5%;
         bottom: 5%;
         float: right;
     }
+
+    @media screen and (max-width: 400px) {
+        div[data-game-card="image-wrapper"] {
+            display: none;
+        }
+
+        header[data-game-card="briefing"] {
+            display: flex;
+            flex-direction: column;
+            text-align: justify;
+        }
+
+    footer[data-game-card="details-wrapper"] {
+            float: none;
+            text-align: center;
+        }
+    }
+
 </style>

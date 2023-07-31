@@ -1,5 +1,5 @@
 <template>
-    <span>{{ tag }}</span>
+    <span class="game-tag">{{ tag }}</span>
 </template>
 
 <style scoped>
