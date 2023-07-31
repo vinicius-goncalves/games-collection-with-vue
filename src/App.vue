@@ -4,7 +4,6 @@
   import Panel from './components/Panel.vue'
   import GameCard from './components/game-card/GameCard.vue'
 
-
   import games from '../src/data/games-library.json'
 
   export default {
@@ -18,7 +17,8 @@
       },
 
       data: () => ({
-          games: [],
+          games,
+          gamesDetails: [],
           Panel: {
               header: 'Explore',
               body: 'Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it'
@@ -31,9 +31,17 @@
                 .map(game => ({ sort: Math.random(), game }))
                 .sort((a, b) => a.sort - b.sort)
                 .map(({ game }) => game)
-                .slice(0, 10)
+                .slice(0, 15)
 
-          this.games = randomGames
+        this.games = randomGames
+
+        const entries = randomGames
+            .map(game => Object.entries(game))
+            .map(game => game.filter(([ key ]) => ['name', 'release_date', 'developer', 'other_genres'].includes(key)))
+            .map(game => Object.fromEntries(game))
+
+        this.gamesDetails = entries
+
       }
   }
 
@@ -63,9 +71,12 @@
           <section class="games-cards">
             <GameCard
                 v-for="game in games"
+                :gameImage="game.image"
                 :gameName="game.name"
                 :gameDescription="Panel.body"
-                :genres="[ game.genre, ...game.other_genres ]" />
+                :gameGenres="game.other_genres"
+                :details="'Seeing details for ' + game.name"
+                :currGame="game" />
         </section>
       </div>
 
@@ -98,6 +109,26 @@
     #app .games-cards {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    }
+
+    @media screen and (max-width: 600px) {
+        #app .games-cards {
+            display: block;
+        }
+
+        #app .games-cards .game-card-image-wrapper {
+            display: none;
+        }
+
+        #app .games-cards .game-card-details {
+            float: none;
+            text-align: center;
+        }
+
+        #app .games-cards .game-card-details {
+            float: none;
+            text-align: center;
+        }
     }
 
 </style>
