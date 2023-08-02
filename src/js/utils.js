@@ -4,6 +4,7 @@ export {
 }
 
 function formatObjectKey(key) {
+
     const matchUnderlines = /[_]/gi
     const matchLowerCaseChars = /(\b[a-z])/g
 

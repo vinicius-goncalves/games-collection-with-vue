@@ -1,6 +1,9 @@
 <template>
     <nav>
-        <Title class="title" size="32px" padding="15px" text="My Games Library" />
+        <Title class="title" size="32px" padding="15px" text="Games Library" />
+        <div>
+            <CustomButton text="Create Game" @click="openCreateGameModal" />
+        </div>
     </nav>
 </template>
 
@@ -35,10 +38,22 @@
 
     import Title from '../Title.vue'
     import Anchor from '../header/Anchor.vue'
+    import CustomButton from '../CustomButton.vue'
 
     export default {
+
         name: 'Navbar',
-        components: { Title, Anchor }
+        components: {
+            Title,
+            Anchor,
+            CustomButton
+        },
+
+        methods: {
+            openCreateGameModal() {
+                this.$emit('openCreateGameModal')
+            }
+        }
     }
 
 </script>

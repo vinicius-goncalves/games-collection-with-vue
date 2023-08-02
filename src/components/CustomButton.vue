@@ -24,14 +24,15 @@
 
 <script>
 
-    import games from '../data/games-library.json'
-
     export default {
 
         name: 'CustomButton',
 
         props: {
-            text: { type: String }
+            text: {
+                type: String
+            }
         },
     }
+
 </script>

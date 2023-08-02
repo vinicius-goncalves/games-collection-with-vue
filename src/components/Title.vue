@@ -14,7 +14,6 @@
         color: var(--color0);
         background-color: var(--color2);
         border-radius: 35px;
-        z-index: 1;
         text-align: center;
         word-break: break-all;
 

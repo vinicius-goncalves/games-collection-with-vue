@@ -1,71 +1,105 @@
 <script>
 
-  import Navbar from './components/header/Navbar.vue'
-  import Panel from './components/Panel.vue'
-  import GameCard from './components/game-card/GameCard.vue'
+    import Navbar from './components/header/Navbar.vue'
+    import Panel from './components/Panel.vue'
+    import GameCard from './components/game-card/GameCard.vue'
+    import Modal from './components/Modal.vue'
 
-  import games from '../src/data/games-library.json'
+    import games from '../src/data/games-library.json'
 
-  export default {
+    export default {
 
-      name: 'App',
+        name: 'App',
 
-      components: {
-          Navbar,
-          Panel,
-          GameCard
-      },
+        components: {
+            Navbar,
+            Panel,
+            GameCard,
+            Modal
+        },
 
-      data: () => ({
-          games,
-          gamesDetails: [],
-          Panel: {
-              header: 'Explore',
-              body: 'Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it'
-          }
-      }),
+        data: () => ({
+            games,
+            text: '',
+            gamesDetails: [],
+            Panel: {
+                header: 'Explore',
+                body: 'Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it'
+            },
+            openModals: {
+                createGame: true
+            },
+        }),
 
-      mounted() {
+        methods: {
 
-          const randomGames = games
-                .map(game => ({ sort: Math.random(), game }))
-                .sort((a, b) => a.sort - b.sort)
-                .map(({ game }) => game)
-                .slice(0, 15)
+            setScrollbarVisibility(visibility) {
+                const bodyStyle = document.body.style
+                bodyStyle.setProperty('overflow', visibility === 'show' ? 'auto' : 'hidden')
+            },
 
-        this.games = randomGames
+            getModel() {
+                console.log(this.text)
+            },
 
-        const entries = randomGames
-            .map(game => Object.entries(game))
-            .map(game => game.filter(([ key ]) => ['name', 'release_date', 'developer', 'other_genres'].includes(key)))
-            .map(game => Object.fromEntries(game))
+            createGame() {
 
-        this.gamesDetails = entries
+                this.openModals.createGame = true
 
-      }
-  }
+                
+                // this.openModals.createGame = !this.openModals.createGame
+
+                // const { createGame } = this.openModals
+
+                // if(!createGame) {
+
+                // }
+            }
+        },
+
+        mounted() {
+
+            const randomGames = games
+                    .map(game => ({ sort: Math.random(), game }))
+                    .sort((a, b) => a.sort - b.sort)
+                    .map(({ game }) => game)
+                    .slice(0, 15)
+
+            this.games = randomGames
+
+            const entries = randomGames
+                .map(game => Object.entries(game))
+                .map(game => game.filter(([ key ]) => ['name', 'release_date', 'developer', 'other_genres'].includes(key)))
+                .map(game => Object.fromEntries(game))
+
+            this.gamesDetails = entries
+
+        }
+    }
 
 </script>
 
 <template>
 
+    <Modal v-if="openModals.createGame" type="create-game"/>
+
     <header>
-      <Navbar/>
+        <Navbar @openCreateGameModal="createGame"/>
     </header>
+
     <main>
+        <div v-if="games.length === 0">
+            <Panel header="Loading games..." body="Please waiting for games loading." />
+        </div>
 
-      <div v-if="games.length === 0">
-        <Panel header="Loading games..." body="Please waiting for games loading." />
-      </div>
-
-      <div v-else>
-          <Panel :header="Panel.header" :body="Panel.body" headerPosition="left" bodyPosition="left" />
-          <section class="games-cards">
-            <GameCard v-for="game in games" :currGame="game" />
-        </section>
-      </div>
-
+        <div v-else>
+            <Panel :header="Panel.header" :body="Panel.body" headerPosition="left" bodyPosition="left" />
+            <section class="games-cards">
+                <GameCard v-for="game in games" :currGame="game" />
+            </section>
+        </div>
     </main>
+
 </template>
 
 <style>
